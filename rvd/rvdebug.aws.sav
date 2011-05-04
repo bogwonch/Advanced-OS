@@ -1,0 +1,6 @@
+[RVD/Core/CoreSight]
+ShowNonCores=Hide
+
+[RVD/Global]
+DoNotShowExitDialog=true
+
