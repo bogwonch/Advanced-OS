@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject>
+<storageModule moduleId="org.eclipse.cdt.core.settings">
+<cconfiguration id="cdt.managedbuild.config.arm41.exe.debug.1054741848">
+<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.arm41.exe.debug.1054741848" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+<externalSettings/>
+<extensions>
+<extension id="com.arm.eclipse.cdt.managedbuilder.ARMELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.arm.eclipse.cdt.managedbuilder.RealViewCoreToolsErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+</extensions>
+</storageModule>
+<storageModule moduleId="org.eclipse.cdt.core.pathentry"/>
+<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+<configuration artifactExtension="axf" artifactName="AdvancedOS" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;com.arm.eclipse.cdt.managedbuilder.RealViewCoreToolsErrorParser" id="cdt.managedbuild.config.arm41.exe.debug.1054741848" name="Debug" parent="cdt.managedbuild.config.arm41.exe.debug" prebuildStep="">
+<folderInfo id="cdt.managedbuild.config.arm41.exe.debug.1054741848." name="/" resourcePath="">
+<toolChain id="cdt.managedbuild.toolchain.arm41.exe.debug.72754099" name="ARM Compilation Tools 4.1" superClass="cdt.managedbuild.toolchain.arm41.exe.debug">
+<targetPlatform id="cdt.managedbuild.target.arm41.exe.1018100393" superClass="cdt.managedbuild.target.arm41.exe"/>
+<builder buildPath="${workspace_loc:/Advanced OS/Debug}" id="cdt.managedbuild.target.arm.builder41.exe.423196711" keepEnvironmentInBuildfile="false" name="CDT Internal Builder" superClass="cdt.managedbuild.target.arm.builder41.exe"/>
+<tool id="cdt.managedbuild.tool.arm.armcc41.exe.559426054" name="ARM Compiler 4.1" superClass="cdt.managedbuild.tool.arm.armcc41.exe">
+<option id="arm.rvct.armcc41.option.CONFIG_LANG.425531266" name="Source Language" superClass="arm.rvct.armcc41.option.CONFIG_LANG" value="arm.rvct.armcc41.option.CONFIG_LANG.LANG_C99" valueType="enumerated"/>
+<option id="arm.rvct.armcc41.option.CONFIG_ISET.1821542833" name="Initial State" superClass="arm.rvct.armcc41.option.CONFIG_ISET" value="[auto]" valueType="enumerated"/>
+<option id="arm.rvct.armcc41.option.CONFIG_CPU.1594142328" name="Architecture or Processor&#10; (--cpu)" superClass="arm.rvct.armcc41.option.CONFIG_CPU" value="ARM940T" valueType="enumerated"/>
+<option id="arm.rvct.armcc41.option.CONFIG_DEVICE.934646665" name="Device (--device)" superClass="arm.rvct.armcc41.option.CONFIG_DEVICE" value="[auto]" valueType="enumerated"/>
+<option id="arm.rvct.armcc41.option.CONFIG_FPU.144160941" name="Floating Point (--fpu)" superClass="arm.rvct.armcc41.option.CONFIG_FPU" value="[auto]" valueType="enumerated"/>
+<option id="arm.rvct.armcc41.option.CONFIG_FPMODE.1756098068" name="Floating Point Models&#10; (--fpmode)" superClass="arm.rvct.armcc41.option.CONFIG_FPMODE" value="C/C++ Standard" valueType="enumerated"/>
+<option id="arm.rvct.armcc41.option.CONFIG_B_ENDIAN.1416628704" name="Byte Order" superClass="arm.rvct.armcc41.option.CONFIG_B_ENDIAN" value="Little Endian" valueType="enumerated"/>
+<option id="arm.rvct.armcc41.option.override.OPTLEVEL.1634511947" name="Optimization&#10;Level" superClass="arm.rvct.armcc41.option.override.OPTLEVEL" value="arm.rvct.armcc.option.OPTLEVEL.0" valueType="enumerated"/>
+<option id="arm.rvct.armcc41.option.OPTTIME.907778814" name="Optimize for" superClass="arm.rvct.armcc41.option.OPTTIME" value="arm.rvct.armcc.option.OPTTIME.time" valueType="enumerated"/>
+<option id="arm.rvct.armcc41.option.DIAG_STYLE.1367935991" name="Diag Style (--diag_style)" superClass="arm.rvct.armcc41.option.DIAG_STYLE" value="ARM format output" valueType="enumerated"/>
+<option id="arm.rvct.armcc41.option.CONFIG_STRICT.1071735481" name="Strict" superClass="arm.rvct.armcc41.option.CONFIG_STRICT" value="arm.rvct.armcc41.option.CONFIG_STRICT.STRICT_WARN" valueType="enumerated"/>
+<option id="arm.rvct.armcc41.option.override.CONFIG_DEBUG.464271263" name="Enable debug table generation (--debug)" superClass="arm.rvct.armcc41.option.override.CONFIG_DEBUG" value="true" valueType="boolean"/>
+<inputType id="cdt.managedbuild.tool.abstract.head.arm.armcc.input.1011757642" superClass="cdt.managedbuild.tool.abstract.head.arm.armcc.input"/>
+</tool>
+<tool id="cdt.managedbuild.tool.arm.armasm41.exe.464025923" name="ARM Assembler 4.1" superClass="cdt.managedbuild.tool.arm.armasm41.exe">
+<option id="arm.rvct.armasm41.option.ARM.1263476796" name="Initial State" superClass="arm.rvct.armasm41.option.ARM" value="[auto]" valueType="enumerated"/>
+<option id="arm.rvct.armasm41.option.DIAG_STYLE.1019393177" name="Diag Style (--diag_style)" superClass="arm.rvct.armasm41.option.DIAG_STYLE" value="ARM format output" valueType="enumerated"/>
+<option id="arm.rvct.armasm41.option.CONFIG_CPU.189385859" name="Architecture or Processor&#10; (--cpu)" superClass="arm.rvct.armasm41.option.CONFIG_CPU" value="ARM940T" valueType="enumerated"/>
+<option id="arm.rvct.armasm41.option.CONFIG_DEVICE.772910818" name="Device (--device)" superClass="arm.rvct.armasm41.option.CONFIG_DEVICE" value="[auto]" valueType="enumerated"/>
+<option id="arm.rvct.armasm41.option.CONFIG_FPU.1874448544" name="Floating Point (--fpu)" superClass="arm.rvct.armasm41.option.CONFIG_FPU" value="[auto]" valueType="enumerated"/>
+<option id="arm.rvct.armasm41.option.CONFIG_FPMODE.1022571076" name="Floating Point Models&#10; (--fpmode)" superClass="arm.rvct.armasm41.option.CONFIG_FPMODE" value="C/C++ Standard" valueType="enumerated"/>
+<option id="arm.rvct.armasm41.option.CONFIG_B_ENDIAN.668211341" name="Byte Order" superClass="arm.rvct.armasm41.option.CONFIG_B_ENDIAN" value="Little Endian" valueType="enumerated"/>
+<option id="arm.rvct.armasm41.option.REGNAMES.1585098099" name="Predeclared Register Names&#10; (--regnames)" superClass="arm.rvct.armasm41.option.REGNAMES" value="callstd" valueType="enumerated"/>
+<option id="arm.rvct.armasm41.option.override.DEBUG.180738934" name="Source Line Debug (-g)" superClass="arm.rvct.armasm41.option.override.DEBUG" value="true" valueType="boolean"/>
+<option id="arm.rvct.armasm41.option.KEEP.249034110" name="Keep Symbols (--keep)" superClass="arm.rvct.armasm41.option.KEEP" value="true" valueType="boolean"/>
+<inputType id="cdt.managedbuild.tool.abstract.head.arm.armasm.input.1536135544" superClass="cdt.managedbuild.tool.abstract.head.arm.armasm.input"/>
+</tool>
+<tool id="cdt.managedbuild.tool.arm.armlink41.1158766499" name="ARM Linker 4.1" superClass="cdt.managedbuild.tool.arm.armlink41">
+<option id="arm.rvct.armlink41.option.LIBRARY_TYPE.298729763" name="Library Type (--library_type)" superClass="arm.rvct.armlink41.option.LIBRARY_TYPE" value="unspecified" valueType="enumerated"/>
+<option id="arm.rvct.armlink41.option.DIAG_STYLE.1126330788" name="Diag Style (--diag_style)" superClass="arm.rvct.armlink41.option.DIAG_STYLE" value="ARM format output" valueType="enumerated"/>
+<option id="arm.rvct.armlink41.option.CONFIG_CPU.989638459" name="Architecture or Processor&#10; (--cpu)" superClass="arm.rvct.armlink41.option.CONFIG_CPU" value="ARM940T" valueType="enumerated"/>
+<option id="arm.rvct.armlink41.option.CONFIG_DEVICE.1633597698" name="Device (--device)" superClass="arm.rvct.armlink41.option.CONFIG_DEVICE" value="[auto]" valueType="enumerated"/>
+<option id="arm.rvct.armlink41.option.CONFIG_FPU.765823074" name="Floating Point (--fpu)" superClass="arm.rvct.armlink41.option.CONFIG_FPU" value="[auto]" valueType="enumerated"/>
+<option id="arm.rvct.armlink41.option.CONFIG_FPMODE.943831698" name="Floating Point Models&#10; (--fpmode)" superClass="arm.rvct.armlink41.option.CONFIG_FPMODE" value="C/C++ Standard" valueType="enumerated"/>
+<option id="arm.rvct.armlink41.option.CONFIG_B_ENDIAN.1281095261" name="Byte Order" superClass="arm.rvct.armlink41.option.CONFIG_B_ENDIAN" value="Little Endian" valueType="enumerated"/>
+<option id="arm.rvct.armlink41.option.RO_BASE.2051392419" name="RO Base (--ro-base=)" superClass="arm.rvct.armlink41.option.RO_BASE" value="0x00000000" valueType="string"/>
+<option id="arm.rvct.armlink41.option.ENTRY.980076983" name="Image entry point&#10; (--entry=)" superClass="arm.rvct.armlink41.option.ENTRY" value="Interupt_Vector_Table" valueType="string"/>
+<option id="arm.rvct.armlink41.option.FIRST.1544890282" name="Place at beginning&#10;of image (--first=)" superClass="arm.rvct.armlink41.option.FIRST" value="vectors.o" valueType="string"/>
+</tool>
+</toolChain>
+</folderInfo>
+</configuration>
+</storageModule>
+<storageModule moduleId="scannerConfiguration">
+<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile"/>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="makefileGenerator">
+<runAction arguments="-f ${project_name}_scd.mk" command="make" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileCPP">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileC">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+</storageModule>
+<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+</cconfiguration>
+<cconfiguration id="cdt.managedbuild.config.arm41.exe.release.1859647855">
+<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.arm41.exe.release.1859647855" moduleId="org.eclipse.cdt.core.settings" name="Release">
+<externalSettings/>
+<extensions>
+<extension id="com.arm.eclipse.cdt.managedbuilder.ARMELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.arm.eclipse.cdt.managedbuilder.RealViewCoreToolsErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+</extensions>
+</storageModule>
+<storageModule moduleId="org.eclipse.cdt.core.pathentry"/>
+<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+<configuration artifactExtension="axf" artifactName="AdvancedOS" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;com.arm.eclipse.cdt.managedbuilder.RealViewCoreToolsErrorParser" id="cdt.managedbuild.config.arm41.exe.release.1859647855" name="Release" parent="cdt.managedbuild.config.arm41.exe.release" prebuildStep="">
+<folderInfo id="cdt.managedbuild.config.arm41.exe.release.1859647855." name="/" resourcePath="">
+<toolChain id="cdt.managedbuild.toolchain.arm41.exe.release.2084646212" name="ARM Compilation Tools 4.1" superClass="cdt.managedbuild.toolchain.arm41.exe.release">
+<targetPlatform id="cdt.managedbuild.target.arm41.exe.2131733030" superClass="cdt.managedbuild.target.arm41.exe"/>
+<builder buildPath="${workspace_loc:/Advanced OS/Release}" id="cdt.managedbuild.target.arm.builder41.exe.937122533" name="CDT Internal Builder.Release" superClass="cdt.managedbuild.target.arm.builder41.exe"/>
+<tool id="cdt.managedbuild.tool.arm.armcc41.exe.1059085668" name="ARM Compiler 4.1" superClass="cdt.managedbuild.tool.arm.armcc41.exe">
+<option id="arm.rvct.armcc41.option.CONFIG_LANG.1189343918" superClass="arm.rvct.armcc41.option.CONFIG_LANG" value="[auto]" valueType="enumerated"/>
+<option id="arm.rvct.armcc41.option.CONFIG_ISET.464028874" superClass="arm.rvct.armcc41.option.CONFIG_ISET" value="[auto]" valueType="enumerated"/>
+<option id="arm.rvct.armcc41.option.CONFIG_CPU.1733536102" superClass="arm.rvct.armcc41.option.CONFIG_CPU" value="ARM940T" valueType="enumerated"/>
+<option id="arm.rvct.armcc41.option.CONFIG_DEVICE.604377640" superClass="arm.rvct.armcc41.option.CONFIG_DEVICE" value="[auto]" valueType="enumerated"/>
+<option id="arm.rvct.armcc41.option.CONFIG_FPU.82004744" superClass="arm.rvct.armcc41.option.CONFIG_FPU" value="[auto]" valueType="enumerated"/>
+<option id="arm.rvct.armcc41.option.CONFIG_FPMODE.1055813079" superClass="arm.rvct.armcc41.option.CONFIG_FPMODE" value="C/C++ Standard" valueType="enumerated"/>
+<option id="arm.rvct.armcc41.option.CONFIG_B_ENDIAN.138244965" superClass="arm.rvct.armcc41.option.CONFIG_B_ENDIAN" value="Little Endian" valueType="enumerated"/>
+<option id="arm.rvct.armcc41.option.override.OPTLEVEL.1232284658" superClass="arm.rvct.armcc41.option.override.OPTLEVEL" value="High optimization, restricted debug (2)" valueType="enumerated"/>
+<option id="arm.rvct.armcc41.option.OPTTIME.934575616" superClass="arm.rvct.armcc41.option.OPTTIME" value="Space" valueType="enumerated"/>
+<option id="arm.rvct.armcc41.option.DIAG_STYLE.1897221937" superClass="arm.rvct.armcc41.option.DIAG_STYLE" value="ARM format output" valueType="enumerated"/>
+<option id="arm.rvct.armcc41.option.CONFIG_STRICT.689630174" superClass="arm.rvct.armcc41.option.CONFIG_STRICT" value="Not strict" valueType="enumerated"/>
+<inputType id="cdt.managedbuild.tool.abstract.head.arm.armcc.input.379107275" superClass="cdt.managedbuild.tool.abstract.head.arm.armcc.input"/>
+</tool>
+<tool id="cdt.managedbuild.tool.arm.armasm41.exe.956551056" name="ARM Assembler 4.1" superClass="cdt.managedbuild.tool.arm.armasm41.exe">
+<option id="arm.rvct.armasm41.option.ARM.237848212" superClass="arm.rvct.armasm41.option.ARM" value="[auto]" valueType="enumerated"/>
+<option id="arm.rvct.armasm41.option.DIAG_STYLE.1130765764" superClass="arm.rvct.armasm41.option.DIAG_STYLE" value="ARM format output" valueType="enumerated"/>
+<option id="arm.rvct.armasm41.option.CONFIG_CPU.675276112" superClass="arm.rvct.armasm41.option.CONFIG_CPU" value="ARM940T" valueType="enumerated"/>
+<option id="arm.rvct.armasm41.option.CONFIG_DEVICE.25131766" superClass="arm.rvct.armasm41.option.CONFIG_DEVICE" value="[auto]" valueType="enumerated"/>
+<option id="arm.rvct.armasm41.option.CONFIG_FPU.1096759848" superClass="arm.rvct.armasm41.option.CONFIG_FPU" value="[auto]" valueType="enumerated"/>
+<option id="arm.rvct.armasm41.option.CONFIG_FPMODE.505299625" superClass="arm.rvct.armasm41.option.CONFIG_FPMODE" value="C/C++ Standard" valueType="enumerated"/>
+<option id="arm.rvct.armasm41.option.CONFIG_B_ENDIAN.2130111650" superClass="arm.rvct.armasm41.option.CONFIG_B_ENDIAN" value="Little Endian" valueType="enumerated"/>
+<option id="arm.rvct.armasm41.option.REGNAMES.1109759113" superClass="arm.rvct.armasm41.option.REGNAMES" value="callstd" valueType="enumerated"/>
+<inputType id="cdt.managedbuild.tool.abstract.head.arm.armasm.input.1733473110" superClass="cdt.managedbuild.tool.abstract.head.arm.armasm.input"/>
+</tool>
+<tool id="cdt.managedbuild.tool.arm.armlink41.649708686" name="ARM Linker 4.1" superClass="cdt.managedbuild.tool.arm.armlink41">
+<option id="arm.rvct.armlink41.option.LIBRARY_TYPE.1889402337" superClass="arm.rvct.armlink41.option.LIBRARY_TYPE" value="unspecified" valueType="enumerated"/>
+<option id="arm.rvct.armlink41.option.DIAG_STYLE.1055166633" superClass="arm.rvct.armlink41.option.DIAG_STYLE" value="ARM format output" valueType="enumerated"/>
+<option id="arm.rvct.armlink41.option.CONFIG_CPU.1103225808" superClass="arm.rvct.armlink41.option.CONFIG_CPU" value="ARM940T" valueType="enumerated"/>
+<option id="arm.rvct.armlink41.option.CONFIG_DEVICE.689804871" superClass="arm.rvct.armlink41.option.CONFIG_DEVICE" value="[auto]" valueType="enumerated"/>
+<option id="arm.rvct.armlink41.option.CONFIG_FPU.449363368" superClass="arm.rvct.armlink41.option.CONFIG_FPU" value="[auto]" valueType="enumerated"/>
+<option id="arm.rvct.armlink41.option.CONFIG_FPMODE.1421184001" superClass="arm.rvct.armlink41.option.CONFIG_FPMODE" value="C/C++ Standard" valueType="enumerated"/>
+<option id="arm.rvct.armlink41.option.CONFIG_B_ENDIAN.83542428" superClass="arm.rvct.armlink41.option.CONFIG_B_ENDIAN" value="Little Endian" valueType="enumerated"/>
+</tool>
+</toolChain>
+</folderInfo>
+</configuration>
+</storageModule>
+<storageModule moduleId="scannerConfiguration">
+<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile"/>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="makefileGenerator">
+<runAction arguments="-f ${project_name}_scd.mk" command="make" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileCPP">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileC">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+</storageModule>
+<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+</cconfiguration>
+</storageModule>
+<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+<project id="Advanced OS.cdt.managedbuild.target.arm41.exe.1823376110" name="Executable" projectType="cdt.managedbuild.target.arm41.exe"/>
+</storageModule>
+</cproject>
