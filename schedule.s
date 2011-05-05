@@ -10,11 +10,11 @@ save_yielded
 	stmfd sp!, {r4, lr}
 	
 	; Save the registers in the PCB
-	add r0, r0, #12
+	add r0, r0, #24
 	
-	str r1, [r0], #4
-	str r2, [r0], #4
-	str r3, [r0], #4
+	;str r1, [r0], #4
+	;str r2, [r0], #4
+	;str r3, [r0], #4
 	str r4, [r0], #4
 	str r5, [r0], #4
 	str r6, [r0], #4
@@ -44,29 +44,27 @@ schedule_process
 	; Drop to user mode
 	msr CPSR_c, #0x10	
 	
-	; Move the PCB to the IP
-	mov ip, r0
 	; Move the LR to the start of the Regs
-	add ip, ip, #8
+	add r0, r0, #24
 	
-	LDR r0, [ip], #4
-	LDR r1, [ip], #4
-	LDR r2, [ip], #4
-	LDR r3, [ip], #4
-	LDR r4, [ip], #4
-	LDR r5, [ip], #4
-	LDR r6, [ip], #4
-	LDR r7, [ip], #4
-	LDR r8, [ip], #4
-	LDR r9, [ip], #4
-	LDR r10,[ip], #4
-	LDR r11,[ip], #8
-	;LDR ip,[lr], #4
-	LDR sp, [ip], #4
-	LDR lr, [ip], #8
-	LDR r0, [ip], #-4
-	msr CPSR_cxsf, r0
-	LDR pc, [ip]
+	;LDR r0, [ip], #4
+	;LDR r1, [ip], #4
+	;LDR r2, [ip], #4
+	;LDR r3, [ip], #4
+	LDR r4, [r0], #4
+	LDR r5, [r0], #4
+	LDR r6, [r0], #4
+	LDR r7, [r0], #4
+	LDR r8, [r0], #4
+	LDR r9, [r0], #4
+	LDR r10,[r0], #4
+	LDR r11,[r0], #4
+	LDR ip, [r0], #4
+	LDR sp, [r0], #4
+	LDR lr, [r0], #8
+	LDR r1, [r0], #-4
+	msr CPSR_cxsf, r1
+	LDR pc, [r0]
 	
 		
 

@@ -1,6 +1,6 @@
 [HISTORY=UKN]
-dir="M:\apps\ARM\ARM Workbench IDE 4.0"
 dir="C:\Program Files\ARM\ARM Workbench IDE 4.0"
+dir="M:\apps\ARM\ARM Workbench IDE 4.0"
 [HISTORY=ARM]
 break="breakinstruction,failover \SCHEDULING\#54:0"
 break="breakinstruction,failover \SCHEDULING\#60:0"

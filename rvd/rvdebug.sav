@@ -1,5 +1,6 @@
-:C:\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Advanced OS\vectors.s
+:C:\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Advanced OS\main.c
 :C:\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Advanced OS\start.s
+:C:\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Advanced OS\vectors.s
 :C:\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Advanced OS\scheduling.c
 :C:\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Advanced OS\interupt_handler.c
 :C:\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Advanced OS\system_handler.s
@@ -7,7 +8,6 @@
 :C:\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Advanced OS\demo_programs.c
 :C:\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Advanced OS\schedule.s
 :C:\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Advanced OS\pcb.c
-:C:\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Advanced OS\main.c
 :C:\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Advanced OS\asm_processes.s
 :C:\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Advanced OS\tables.c
 :C:\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Advanced OS\c_processes.c
@@ -19,6 +19,7 @@
 :K:\Embedded Systems\Advanced OS\start.s
 =11000000000C:\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Advanced OS\rvd\rvdebug.aws
 #*C:\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Advanced OS\rvd\rvdebug.aws
+#:ARM:load/r 'C:\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Advanced OS\Debug\AdvancedOS.axf'
 #*K:\Embedded Systems\Advanced OS\rvd\rvdebug.aws
 ^connect  "@ARM940T@RVISS"
-C:\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Advanced OS\vectors.s, 0, 10
+C:\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Advanced OS\main.c, 0, 0

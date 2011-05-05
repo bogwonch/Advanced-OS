@@ -4,10 +4,10 @@
 [INCLUDE] ?$RVDEBUG_HOME\rvdebug.ini\\$RVDEBUG_HOME\rvdebug.ini
 [CONNECT=ARM940T@RVISS] 0
 [WINDOW=Code] 
-iconic=1
-xpos=0x03D2
-ypos=0x046C
-height=0x030A
+iconic=0
+xpos=0xFFFFFFF8
+ypos=0xFFFFFFF8
+height=0x02E2
 width=0x0500
 alt_height=0x000B
 StrList="+C:\
@@ -37,7 +37,7 @@ StrList="+C:\
 StrList="+C:\
 	\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Adva\
 	nced OS\c_processes.c"
-StrList="+C:\
+StrList="C:\
 	\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Adva\
 	nced OS\start.s"
 StrList="+C:\
@@ -46,10 +46,10 @@ StrList="+C:\
 StrList="+C:\
 	\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Adva\
 	nced OS\main.c"
-StrList="=0,10,0,C:\
+StrList="C:\
 	\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Adva\
 	nced OS\vectors.s"
-value=0x000E
+value=1
 dock_content="Registers"
 dock_data="Registers:2:1:0:0:0:332:430:1:0"
 dock_win={:\

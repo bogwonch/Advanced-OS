@@ -18,11 +18,14 @@ PCB;
 
 void create_pcb(PCB *new, int pid, int(*proc)(void))
 {
-	int i;
+	//int i;
 	new->pid = pid;
 	new->state = READY;
+	/*
+	// No initialization for speed
 	for (i = 0; i < N_REGS; i++)
 		new->reg[i] = 0;
+	*/
 	new->reg[PC] = (int)proc;
 	new->spsr = INITIAL_SPSR;
 	new->reg[LR] = (int)Kill;

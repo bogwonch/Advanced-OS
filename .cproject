@@ -16,7 +16,7 @@
 </storageModule>
 <storageModule moduleId="org.eclipse.cdt.core.pathentry"/>
 <storageModule moduleId="cdtBuildSystem" version="4.0.0">
-<configuration artifactExtension="axf" artifactName="AdvancedOS" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;com.arm.eclipse.cdt.managedbuilder.RealViewCoreToolsErrorParser" id="cdt.managedbuild.config.arm41.exe.debug.1054741848" name="Debug" parent="cdt.managedbuild.config.arm41.exe.debug" prebuildStep="">
+<configuration artifactExtension="axf" artifactName="AdvancedOS" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;com.arm.eclipse.cdt.managedbuilder.RealViewCoreToolsErrorParser" id="cdt.managedbuild.config.arm41.exe.debug.1054741848" name="Debug" parent="cdt.managedbuild.config.arm41.exe.debug" postannouncebuildStep="" postbuildStep="" preannouncebuildStep="" prebuildStep="">
 <folderInfo id="cdt.managedbuild.config.arm41.exe.debug.1054741848." name="/" resourcePath="">
 <toolChain id="cdt.managedbuild.toolchain.arm41.exe.debug.72754099" name="ARM Compilation Tools 4.1" superClass="cdt.managedbuild.toolchain.arm41.exe.debug">
 <targetPlatform id="cdt.managedbuild.target.arm41.exe.1018100393" superClass="cdt.managedbuild.target.arm41.exe"/>
@@ -29,11 +29,12 @@
 <option id="arm.rvct.armcc41.option.CONFIG_FPU.144160941" name="Floating Point (--fpu)" superClass="arm.rvct.armcc41.option.CONFIG_FPU" value="[auto]" valueType="enumerated"/>
 <option id="arm.rvct.armcc41.option.CONFIG_FPMODE.1756098068" name="Floating Point Models&#10; (--fpmode)" superClass="arm.rvct.armcc41.option.CONFIG_FPMODE" value="C/C++ Standard" valueType="enumerated"/>
 <option id="arm.rvct.armcc41.option.CONFIG_B_ENDIAN.1416628704" name="Byte Order" superClass="arm.rvct.armcc41.option.CONFIG_B_ENDIAN" value="Little Endian" valueType="enumerated"/>
-<option id="arm.rvct.armcc41.option.override.OPTLEVEL.1634511947" name="Optimization&#10;Level" superClass="arm.rvct.armcc41.option.override.OPTLEVEL" value="arm.rvct.armcc.option.OPTLEVEL.0" valueType="enumerated"/>
+<option id="arm.rvct.armcc41.option.override.OPTLEVEL.1634511947" name="Optimization&#10;Level" superClass="arm.rvct.armcc41.option.override.OPTLEVEL" value="arm.rvct.armcc.option.OPTLEVEL.3" valueType="enumerated"/>
 <option id="arm.rvct.armcc41.option.OPTTIME.907778814" name="Optimize for" superClass="arm.rvct.armcc41.option.OPTTIME" value="arm.rvct.armcc.option.OPTTIME.time" valueType="enumerated"/>
 <option id="arm.rvct.armcc41.option.DIAG_STYLE.1367935991" name="Diag Style (--diag_style)" superClass="arm.rvct.armcc41.option.DIAG_STYLE" value="ARM format output" valueType="enumerated"/>
 <option id="arm.rvct.armcc41.option.CONFIG_STRICT.1071735481" name="Strict" superClass="arm.rvct.armcc41.option.CONFIG_STRICT" value="arm.rvct.armcc41.option.CONFIG_STRICT.STRICT_WARN" valueType="enumerated"/>
 <option id="arm.rvct.armcc41.option.override.CONFIG_DEBUG.464271263" name="Enable debug table generation (--debug)" superClass="arm.rvct.armcc41.option.override.CONFIG_DEBUG" value="true" valueType="boolean"/>
+<option id="arm.rvct.armcc41.option.CONFIG_GNU.2117465917" name="GNU Language Extensions (--gnu)" superClass="arm.rvct.armcc41.option.CONFIG_GNU" value="false" valueType="boolean"/>
 <inputType id="cdt.managedbuild.tool.abstract.head.arm.armcc.input.1011757642" superClass="cdt.managedbuild.tool.abstract.head.arm.armcc.input"/>
 </tool>
 <tool id="cdt.managedbuild.tool.arm.armasm41.exe.464025923" name="ARM Assembler 4.1" superClass="cdt.managedbuild.tool.arm.armasm41.exe">

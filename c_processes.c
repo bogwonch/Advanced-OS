@@ -6,8 +6,7 @@
 
 int init_c_processes(void)
 {
-	addNewProcess(hello_world);
-	addNewProcess(hello_mars);
+	addNewProcess(sort_main);
 	
 	return 0;
 }
