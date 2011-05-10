@@ -12,7 +12,7 @@
 	
 	ALIGN
 ProcessTableStart
-	;DCD HelloOS
+	DCD HelloOS
 ProcessTableEnd
 	DCD 0x0 ; Nil terminated
 	ALIGN

@@ -4,5 +4,5 @@
 #include "yield.h"
 
 PCB pcb_table[PCB_TABLE_SIZE];
-OS_State os_state;
+OS_State os_state={-1};
 Yielding yield;

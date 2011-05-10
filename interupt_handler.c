@@ -11,8 +11,15 @@ int interupt_handler(int interupt, void *arg)
 {
 	switch(interupt)
 	{
+	default:
+		printf("ERROR: Illegal interupt %d\n", interupt);
+	case 0xD13:
+		printf("INFO: System is shutting down\n");
+		addNewProcess((int (*)(void))shutdown_system);
+	
 	case 0:
 		kill_process();
+	case 42:
 		schedule_next();
 		break;
 		
@@ -42,12 +49,7 @@ int interupt_handler(int interupt, void *arg)
 		schedule_next();
 		
 		break;
-		
-	default:
-		printf("ERROR: Illegal interupt %d\n", interupt);
-	case 0xD13:
-		printf("INFO: System is shutting down\n");
-		shutdown_system();
+	
 	}
 	
 	

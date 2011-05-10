@@ -20,7 +20,7 @@
 <folderInfo id="cdt.managedbuild.config.arm41.exe.debug.1054741848." name="/" resourcePath="">
 <toolChain id="cdt.managedbuild.toolchain.arm41.exe.debug.72754099" name="ARM Compilation Tools 4.1" superClass="cdt.managedbuild.toolchain.arm41.exe.debug">
 <targetPlatform id="cdt.managedbuild.target.arm41.exe.1018100393" superClass="cdt.managedbuild.target.arm41.exe"/>
-<builder buildPath="${workspace_loc:/Advanced OS/Debug}" id="cdt.managedbuild.target.arm.builder41.exe.423196711" keepEnvironmentInBuildfile="false" name="CDT Internal Builder" superClass="cdt.managedbuild.target.arm.builder41.exe"/>
+<builder autoBuildTarget="" buildPath="${workspace_loc:/Advanced OS/Debug}" cleanBuildTarget="" id="cdt.managedbuild.target.arm.builder41.exe.423196711" incrementalBuildTarget="" keepEnvironmentInBuildfile="false" name="CDT Internal Builder" superClass="cdt.managedbuild.target.arm.builder41.exe"/>
 <tool id="cdt.managedbuild.tool.arm.armcc41.exe.559426054" name="ARM Compiler 4.1" superClass="cdt.managedbuild.tool.arm.armcc41.exe">
 <option id="arm.rvct.armcc41.option.CONFIG_LANG.425531266" name="Source Language" superClass="arm.rvct.armcc41.option.CONFIG_LANG" value="arm.rvct.armcc41.option.CONFIG_LANG.LANG_C99" valueType="enumerated"/>
 <option id="arm.rvct.armcc41.option.CONFIG_ISET.1821542833" name="Initial State" superClass="arm.rvct.armcc41.option.CONFIG_ISET" value="[auto]" valueType="enumerated"/>
@@ -29,7 +29,7 @@
 <option id="arm.rvct.armcc41.option.CONFIG_FPU.144160941" name="Floating Point (--fpu)" superClass="arm.rvct.armcc41.option.CONFIG_FPU" value="[auto]" valueType="enumerated"/>
 <option id="arm.rvct.armcc41.option.CONFIG_FPMODE.1756098068" name="Floating Point Models&#10; (--fpmode)" superClass="arm.rvct.armcc41.option.CONFIG_FPMODE" value="C/C++ Standard" valueType="enumerated"/>
 <option id="arm.rvct.armcc41.option.CONFIG_B_ENDIAN.1416628704" name="Byte Order" superClass="arm.rvct.armcc41.option.CONFIG_B_ENDIAN" value="Little Endian" valueType="enumerated"/>
-<option id="arm.rvct.armcc41.option.override.OPTLEVEL.1634511947" name="Optimization&#10;Level" superClass="arm.rvct.armcc41.option.override.OPTLEVEL" value="arm.rvct.armcc.option.OPTLEVEL.3" valueType="enumerated"/>
+<option id="arm.rvct.armcc41.option.override.OPTLEVEL.1634511947" name="Optimization&#10;Level" superClass="arm.rvct.armcc41.option.override.OPTLEVEL" value="arm.rvct.armcc.option.OPTLEVEL.0" valueType="enumerated"/>
 <option id="arm.rvct.armcc41.option.OPTTIME.907778814" name="Optimize for" superClass="arm.rvct.armcc41.option.OPTTIME" value="arm.rvct.armcc.option.OPTTIME.time" valueType="enumerated"/>
 <option id="arm.rvct.armcc41.option.DIAG_STYLE.1367935991" name="Diag Style (--diag_style)" superClass="arm.rvct.armcc41.option.DIAG_STYLE" value="ARM format output" valueType="enumerated"/>
 <option id="arm.rvct.armcc41.option.CONFIG_STRICT.1071735481" name="Strict" superClass="arm.rvct.armcc41.option.CONFIG_STRICT" value="arm.rvct.armcc41.option.CONFIG_STRICT.STRICT_WARN" valueType="enumerated"/>

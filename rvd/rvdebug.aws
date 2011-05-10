@@ -4,19 +4,28 @@
 [INCLUDE] ?$RVDEBUG_HOME\rvdebug.ini\\$RVDEBUG_HOME\rvdebug.ini
 [CONNECT=ARM940T@RVISS] 0
 [WINDOW=Code] 
-iconic=0
-xpos=0xFFFFFFF8
-ypos=0xFFFFFFF8
-height=0x02E2
-width=0x0500
-alt_height=0x000B
+iconic=2
+xpos=0x003A
+ypos=0x00BD
+height=0x0213
+width=0x03B1
+alt_height=0x0017
+StrList="+C:\
+	\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Adva\
+	nced OS\HelloOS.s"
+StrList="+C:\
+	\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Adva\
+	nced OS\lottery_scheduler.c"
+StrList="+C:\
+	\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Adva\
+	nced OS\sorts.c"
 StrList="+C:\
 	\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Adva\
 	nced OS\demo_programs.c"
 StrList="+C:\
 	\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Adva\
 	nced OS\scheduling.c"
-StrList="+C:\
+StrList="C:\
 	\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Adva\
 	nced OS\schedule.s"
 StrList="+C:\
@@ -37,40 +46,35 @@ StrList="+C:\
 StrList="+C:\
 	\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Adva\
 	nced OS\c_processes.c"
-StrList="C:\
+StrList="=23,26,0,C:\
 	\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Adva\
 	nced OS\start.s"
 StrList="+C:\
 	\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Adva\
 	nced OS\asm_processes.s"
-StrList="=0,0,0,C:\
+StrList="+C:\
 	\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Adva\
 	nced OS\main.c"
 StrList="C:\
 	\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Adva\
 	nced OS\vectors.s"
-value=0x000D
-dock_content="Registers"
-dock_data="Registers:2:1:0:0:0:332:430:1:0"
+value=0x000E
+dock_content="Output"
+dock_data="Output:3:1:0:0:0:640:416:1:1"
 dock_win={:\
 }
-dock_content="Output"
-dock_data="Output:3:1:0:0:0:426:218:1:1"
+dock_content="Registers"
+dock_data="Registers:2:0:0:0:0:256:430:1:0"
 dock_win={:\
 }
 dock_content="Watch"
-dock_data="Watch:3:0:1:426:0:426:218:1:0"
+dock_data="Watch:3:0:1:640:0:640:416:1:1"
 dock_win={:\
 char_pointer=As_Value:\
-History={$@ARM940T:ARM-A-SW$#0x00$"pcb_table[0]"$$"os_state"$}:\
-}
-dock_content="Stack"
-dock_data="Stack:3:0:2:852:0:426:218:1:0"
-dock_win={:\
-num_columns=1:\
-update_period=0:\
-scalar_format=Hex_Zeroes:\
-type=Natural:\
+History={\
+  $@ARM940T:\
+	ARM-A-SW$#0x00$"pcb_table[0]"$$"pcb_table[1]"$$"pcb_table[4]"$$"os_state"$\
+}:\
 }
 dock_content="tbar_File"
 dock_data="0:0:0:0:0:0:86:23:"

@@ -3,6 +3,8 @@
 #include <time.h>
 #include "tables.h"
 #include "scheduling.h"
+#include "pcb.h"
+
 
 #define TICKETS 100
 
@@ -27,29 +29,30 @@ int lottery_scheduler(void)
 		}
 	}
 	
+	printf("\nINFO: %d processes ready to be run\n", j);
+	
 	// If nothing ready
 	if (total == 0)
 		return NO_PID_READY;
 	
 	// Assign tickets
 	i = 0;
-	j -= 1;
 	while (j)
 	{
 		j -= 1;
 		k = pcb_table[pids[j]].priority;
 		k *= TICKETS / total;
 		
+		printf("\nINFO: Assigning %d tickets to process %d\n", k, pids[j]);
+		
 		while (k--)
 		{
 			tickets[i++] = pids[j];
 		}
 	}
-
-	
 		
 	// Pick a ticket
-	srand(clock());
+	//srand(clock());
 	return tickets[rand()%(i-1)];
 	
 }

@@ -10,10 +10,10 @@
 #define LR 14
 #define PC 15
 
-#define READY 0
-#define RUNNING 1
-#define BLOCKED 2
-#define DEAD 3
+#define READY 1
+#define RUNNING 2
+#define BLOCKED 3
+#define DEAD 0
 
 /* A PCB */
 typedef struct pcb_t
@@ -23,6 +23,7 @@ typedef struct pcb_t
 	int reg[N_REGS];
 	int spsr;
 	int stack[PROCESS_STACK_SIZE];
+	int priority;
 
 }
 PCB;

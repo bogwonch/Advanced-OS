@@ -2,6 +2,7 @@
 #include <time.h>
 #include <stdlib.h>
 #include <string.h>
+#include "interupt_shims.h"
 
 #define N               1000
 
@@ -117,6 +118,8 @@ int sort_main(void)
     printf("Value of N too big to use insertion sort, must be <= 1000\n");
 #endif
 
+    Yield();
+    
     /* Do shell sort */
     memcpy(strings_copy, strings, sizeof(strings));
     starttime = clock();
@@ -125,6 +128,8 @@ int sort_main(void)
     check_order("Shell", strings_copy, N);
     printf("Shell sort took %d clock ticks\n", endtime - starttime);
 
+    Yield();
+    
     /* Do quick sort - use built-in C library sort */
     memcpy(strings_copy, strings, sizeof(strings));
     starttime = clock();

@@ -1,5 +1,6 @@
 #include "pcb.h"
 #include <stdio.h>
+#include <stdlib.h>
 #include "interupt_shims.h"
 #include "tables.h"
 
@@ -29,7 +30,8 @@ void create_pcb(PCB *new, int pid, int(*proc)(void))
 	new->reg[PC] = (int)proc;
 	new->spsr = INITIAL_SPSR;
 	new->reg[LR] = (int)Kill;
-	new->reg[SP] = (int)new->stack[PROCESS_STACK_SIZE-1]; // Descending stack so use the END
+	new->reg[SP] = (int)&(new->stack[PROCESS_STACK_SIZE-1]); // Descending stack so use the END
+	new->priority = 1+ (rand() % 5);
 }
 
 int add_process(int (*proc)(void))
@@ -38,15 +40,16 @@ int add_process(int (*proc)(void))
 	
 	if (pid >= 0)
 	{
-		printf("INFO: Creating process with PID %d\n", pid);
+		printf("\nINFO: Creating process with PID %d\n", pid);
 		create_pcb(&pcb_table[pid], pid, proc);
 		return 0;
 	}
 	
-	printf("WARNING: Couldn't create process for process at 0x%X\n", (int)proc);
+	printf("\nWARN: Couldn't create process for process at 0x%X\n", (int)proc);
 	return -1;
 }
 
+// Replaced with assembly in start.s
 void init_pcb_table(void)
 {
 	int i;
@@ -60,8 +63,11 @@ int find_free_pid(PCB *table)
 {
 	int i;
 	for (i = 0; i < PCB_TABLE_SIZE; i++)
-		if (table[i].state == DEAD)
+		/* Yes os_state thing is stupid.  Blame the arm scatterloader for being stupid */
+		if (table[i].state == DEAD && i != os_state.current_pid)
 			return i;
+	
+	printf("\nWARN: No space for creating any more processes.\n");
 	
 	return -1;
 }
