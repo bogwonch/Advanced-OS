@@ -1,0 +1,17 @@
+# RVDEBUG.BRD default Board-file. This file should not be hand edited. The
+# Settings Window should be used to edit this file and any derivatives
+# of it. 
+# Copyright (c) 1997-2007 ARM Ltd. All rights reserved
+$rvdebug
+
+# The *.bcd include loads in files created by board manufacturers, ASIC
+# chip designers, and custom board designers (or someone who wants to add
+# the information). This allow use of the extended information by board
+# entries of type DERIVED and DATFILE.
+[INCLUDE] (*.bcd) Board/Chip Definitions\\ Custom Board and Chip definitions
+
+# SoC Designer dynamically adds .soc files when connecting to RVD
+[INCLUDE] (*.soc)
+[CONNECTION=RVISS] 
+connect_with.Manufacturer=ARM-A-SW
+configuration="$RVDEBUG_HOME/RVISS_3.auc"

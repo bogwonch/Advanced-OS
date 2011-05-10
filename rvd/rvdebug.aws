@@ -1,0 +1,130 @@
+[DEBUGGER] 
+[CODE] 
+[INCLUDE] ?$RVDEBUG_HOME/rvdebug.ini\\$RVDEBUG_HOME/rvdebug.ini
+[INCLUDE] ?$RVDEBUG_HOME\rvdebug.ini\\$RVDEBUG_HOME\rvdebug.ini
+[CONNECT=ARM940T@RVISS] 0
+[WINDOW=Code] 
+iconic=2
+xpos=0x003A
+ypos=0x00BD
+height=0x0213
+width=0x03B1
+alt_height=0x0017
+StrList="+C:\
+	\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Adva\
+	nced OS\HelloOS.s"
+StrList="+C:\
+	\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Adva\
+	nced OS\lottery_scheduler.c"
+StrList="+C:\
+	\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Adva\
+	nced OS\sorts.c"
+StrList="+C:\
+	\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Adva\
+	nced OS\demo_programs.c"
+StrList="+C:\
+	\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Adva\
+	nced OS\scheduling.c"
+StrList="C:\
+	\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Adva\
+	nced OS\schedule.s"
+StrList="+C:\
+	\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Adva\
+	nced OS\interupt_handler.c"
+StrList="+C:\
+	\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Adva\
+	nced OS\system_handler.s"
+StrList="+C:\
+	\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Adva\
+	nced OS\interupt_shim.s"
+StrList="+C:\
+	\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Adva\
+	nced OS\tables.c"
+StrList="+C:\
+	\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Adva\
+	nced OS\pcb.c"
+StrList="+C:\
+	\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Adva\
+	nced OS\c_processes.c"
+StrList="=23,26,0,C:\
+	\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Adva\
+	nced OS\start.s"
+StrList="+C:\
+	\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Adva\
+	nced OS\asm_processes.s"
+StrList="+C:\
+	\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Adva\
+	nced OS\main.c"
+StrList="C:\
+	\Users\jah\Dropbox\Documents\Coursework\Embedded Systems\Embedded Systems\Adva\
+	nced OS\vectors.s"
+value=0x000E
+dock_content="Output"
+dock_data="Output:3:1:0:0:0:640:416:1:1"
+dock_win={:\
+}
+dock_content="Registers"
+dock_data="Registers:2:0:0:0:0:256:430:1:0"
+dock_win={:\
+}
+dock_content="Watch"
+dock_data="Watch:3:0:1:640:0:640:416:1:1"
+dock_win={:\
+char_pointer=As_Value:\
+History={\
+  $@ARM940T:\
+	ARM-A-SW$#0x00$"pcb_table[0]"$$"pcb_table[1]"$$"pcb_table[4]"$$"os_state"$\
+}:\
+}
+dock_content="tbar_File"
+dock_data="0:0:0:0:0:0:86:23:"
+dock_win={:\
+}
+dock_content="tbar_Edit"
+dock_data="0:1:86:0:0:0:80:23:"
+dock_win={:\
+}
+dock_content="tbar_Debug"
+dock_data="0:2:166:0:0:0:202:23:"
+dock_win={:\
+}
+dock_content="tbar_Image"
+dock_data="0:3:368:0:0:0:80:23:"
+dock_win={:\
+}
+dock_content="tbar_Connect"
+dock_data="0:4:448:0:0:0:134:23:"
+dock_win={:\
+}
+dock_content="tbar_Find"
+dock_data="0:5:582:0:0:0:443:23:"
+dock_win={:\
+}
+dock_content="tbar_Scripts"
+dock_data="0:6:0:23:0:0:342:23:"
+dock_win={:\
+}
+[WINDOW=Connection Control] 
+iconic=0
+xpos=0x0147
+ypos=0x0200
+height=0x0140
+width=0x01F4
+show_advanced=0
+visible=0
+
+[Filters]
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+    <file_filter_data>
+        <module_filters/>
+    </file_filter_data>
+</doc>
+[Scripts]
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+    <script_toolbar_data>
+        <is_active>0</is_active>
+        <all_data/>
+    </script_toolbar_data>
+</doc>
